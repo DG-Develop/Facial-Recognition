@@ -1,0 +1,10 @@
+access enviroment:
+python -m venv "enviroment_name"
+
+instalacion de dependencias:
+python3 -m pip install -r requirements.txt
+
+Nota: si tenemos un error al momento de ejecutar los scripts hay que ir al powershell y poner el 
+comando Get-ExecutionPolicy el cual te debe de mostrar que esta Restricted para pasarlo a 
+Unrestricted hay que poner el comando Set-ExecutionPolicy Unrestricted  y darle en Si (S) y ya 
+seria todo.
